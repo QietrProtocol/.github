@@ -1,8 +1,8 @@
 <div align="center">
 
-# Qietr
+<img src="https://raw.githubusercontent.com/QietrProtocol/.github/main/profile/assets/banner.png" alt="Qietr — Private payments for the agent economy" width="100%" />
 
-### Private payments for the agentic web.
+<br /><br />
 
 Pay for APIs, content, and metered services in USDC &mdash;<br />
 without revealing your identity, history, or balance.
