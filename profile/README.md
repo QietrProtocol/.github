@@ -131,13 +131,37 @@ Anchor program &mdash; agent job escrow with CPI token transfers.
 <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
 </td>
 <td valign="top" width="333">
-<h3><a href="https://github.com/QietrProtocol/qietr/tree/main/docs/dev/06-tokenomics.md">$QIET</a></h3>
-Protocol token &mdash; revenue share, governance, fee discounts. <em>Not minted yet.</em>
+<h3><a href="https://qietr.com/token">$QIET</a></h3>
+Protocol token &mdash; fee-driven buyback &amp; burn, governance, fee discounts. <em>Live.</em>
 <br /><br />
-<img src="https://img.shields.io/badge/Design-2B2B2B?style=flat-square" alt="Design" />
+<img src="https://img.shields.io/badge/SPL-Live-111111?style=flat-square&logo=solana&logoColor=white" alt="Live" />
 </td>
 </tr>
 </table>
+
+## On-chain Addresses
+
+<div align="center">
+
+**$QIET token** &mdash; the only official contract address on Solana mainnet:
+
+`MXDRgSQstTKBMunuF2VmcnBejpbidECL5vtCAb6pump`
+
+<sub>Verify before buying &middot; beware of impostor tokens</sub>
+
+</div>
+
+<br />
+
+Protocol programs, live on **Solana devnet** (upgrade authority `GWxyJs7G9FPUY58UTtUSpVwFuXTRdXzneyBcekxmvuR4`):
+
+| Program | Description | Program ID |
+| :------ | :---------- | :--------- |
+| [`qietr_pool`](https://github.com/QietrProtocol/qietr/tree/main/qietr-pool) | Shielded pool &mdash; Merkle tree, deposit, withdraw, Groth16 verifier | `4XH6f74UFTvqx4j9UarXGrRZRrAwbnNNsRFBTfNqmWib` |
+| [`qietr_escrow`](https://github.com/QietrProtocol/qietr/tree/main/qietr-escrow) | Agent job escrow with CPI token transfers | `DBLjgT9mCjTF3q7zqDCnUrMtHEnBarNwqmk7XojB4FNz` |
+| [`qietr_msg`](https://github.com/QietrProtocol/qietr/tree/main/qietr-msg) | Encrypted off-chain messaging for agents | `6ZAeJCLRrNyMCLYgH5uUdRNbA5usAun94vPtaTM5Xdez` |
+
+<sub>Devnet IDs &middot; mainnet program deployment is tracked in the <a href="https://github.com/QietrProtocol/qietr#deployment-status">honest status</a>.</sub>
 
 ---
 
